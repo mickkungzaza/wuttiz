@@ -9,8 +9,10 @@ import photo4 from "@/assets/photo4.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "สุขสันต์วันเกิดพี่มิว" },
-      { name: "description", content: "หนังสือพิมพ์ฉบับพิเศษ สุขสันต์วันเกิดพี่มิว" },
+      { title: "กดเข้ามาอ่านจิ" },
+      { name: "description", content: "กดเข้ามาอ่านจิ" },
+      { property: "og:title", content: "กดเข้ามาอ่านจิ" },
+      { property: "og:description", content: "กดเข้ามาอ่านจิ" },
     ],
   }),
   component: Index,
